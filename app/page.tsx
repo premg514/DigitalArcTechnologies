@@ -33,7 +33,7 @@ export default function Home() {
   const { formData, handleChange, handleSubmit } = useContactForm();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-teal-50/30 overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-teal-50/30 overflow-x-hidden font-sans ">
       <CursorGlow mousePosition={mousePosition} />
 
       <Navigation
